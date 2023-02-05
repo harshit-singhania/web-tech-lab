@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Program 1</title>
+    <style>
+        body {
+            background-color: aliceblue;
+        }
+        .he1 {
+            color: green;
+        }
+        .p1 {
+            color: darkgreen;
+        }
+        .he2 {
+            color: magenta;
+        }
+        .he4 {
+            color: orange;
+        }
+        div {
+            background-color: lightcoral;
+        }
+        .he6 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: medium;
+            border: 0ch;
+            padding: 1px;
+            margin: 2px;
+        }
+        .he7 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: small;
+            border: 1px;
+            margin: 2px;
+            padding: 3px;
+        }
+    </style>
+  </head>
+  <body>
+    <h1 class="he1">heading</h1>
+    <p class="p1">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam animi
+      consectetur vel dolore earum enim quas. Nemo blanditiis fugiat corrupti,
+      totam labore nulla ut nihil repellat repudiandae odit laborum architecto!
+    </p>
+    <h1 class="he2">heading 2</h1>
+    <h1 class="he2">heading 3</h1>
+    <h1 class="he4">heading 4</h1>
+    <h1 class="he4">heading 5</h1>
+    <!-- change background color of h1 tag when cursor hover over it -->
+    <h1 id="head7">heading 7</h1>
+
+    <div>
+      <h1 class="he6">
+        heading 6
+      </h1>
+      <h2 class="he7"
+      >heading 7</h2>
+    </div> 
+    <script>
+      document.getElementById("head7").addEventListener("mouseover", function () {
+        this.style.backgroundColor = "green";
+      });
+    </script>
+  </body>
+</html>

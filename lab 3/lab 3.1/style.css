@@ -1,0 +1,33 @@
+body {
+    background-color: aliceblue;
+}
+
+.he1 {
+    color: green;
+}
+.p1 {
+    color: darkgreen;
+}
+.he2 {
+    color: magenta;
+}
+.he4 {
+    color: orange;
+}
+div {
+    background-color: lightcoral;
+}
+.he6 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border: 0ch;
+    padding: 1px;
+    margin: 2px;
+}
+.he7 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    border: 1px;
+    margin: 2px;
+    padding: 3px;
+}
