@@ -1,0 +1,31 @@
+//1.
+
+import java.util.Scanner;
+class Employee {
+   int id;
+   String name;
+   double salary;
+
+   // member function to get employee details
+   void getempinfo(int empId, String empName, double empSalary) {
+      id = empId;
+      name = empName;
+      salary = empSalary;
+   }
+
+   // member function to display employee information
+   void display() {
+      System.out.println("Employee ID: " + id);
+      System.out.println("Employee Name: " + name);
+      System.out.println("Employee Salary: " + salary);
+   }
+}
+
+// Driver class to test the employee class
+public class Main {
+   public static void main(String[] args) {
+      Employee emp = new Employee();
+      emp.getempinfo(1001, "Rishav", 20000);
+      emp.display();
+   }
+}

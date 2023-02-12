@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class spy {
+    int n;
+    Scanner Sc = new Scanner(System.in);
+
+    void input_data() {
+        System.out.println("Enter a number:");
+        n = Sc.nextInt();
+    }
+
+    void spy2() {
+        int i, j = 0, k = 1, m = n;
+        while (m > 0) {
+            i = m % 10;
+            j += i;
+            k *= i;
+            m /= 10;
+        }
+        if (j == k)
+            System.out.println("Number is Spy");
+        else
+            System.out.println("Number is not Spy");
+    }
+
+    public static void main(String[] args) {
+        spy a = new spy();
+        a.input_data();
+        a.spy2();
+
+    }
+}
