@@ -7,7 +7,7 @@
 // E. Volume Of Cuboid
 
 public class ShapeVolume {
-    double volume;
+    double volume; 
 
     // Constructor Overloading
     ShapeVolume() {
